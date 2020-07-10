@@ -94,7 +94,6 @@ a.white {
 .navbar-custom .navbar-brand.logo-image img {
     width: 50px;
     height: 50px;
-    margin-bottom: center;
     margin-left: 0.75rem;
     -webkit-backface-visibility: hidden;
 }
@@ -302,4 +301,8 @@ a.white {
 .videoWrapper-2 {
     text-align: center;
     padding-top: 1rem;
+}
+
+.videos iframe {
+    border: 0;
 }
