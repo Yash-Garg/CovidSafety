@@ -153,21 +153,21 @@ a.white {
 
 .navbar-custom #home .nav-link:hover,
 .navbar-custom #home .nav-link.active {
-    background-color: #338bff;
+    background-color: #f7cd13;
     color: black;
     border-radius: 0.9rem;
 }
 
 .navbar-custom #tips .nav-link:hover,
 .navbar-custom #tips .nav-link.active {
-    background-color: #f7cd13;
+    background-color:#ff0000;
     color: black;
     border-radius: 0.9rem;
 }
 
 .navbar-custom #stats .nav-link:hover,
 .navbar-custom #stats .nav-link:active {
-    background-color: #ff0000;
+    background-color: #338bff;
     color: black;
     border-radius: 0.9rem;
 }
@@ -274,5 +274,6 @@ a.white {
 }
 
 .tips p {
-    margin-left: 4%
+    margin-left: 4%;
+    font-weight: bolder;
 }
