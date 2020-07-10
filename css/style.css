@@ -174,7 +174,7 @@ a.white {
 
 .navbar-custom .navbar-toggler {
     border: none;
-    margin-right: -10px;
+    margin-right: 0.4rem;
     color: #fff;
     font-size: 2rem;
 }
