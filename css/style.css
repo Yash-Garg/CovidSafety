@@ -79,38 +79,6 @@ a.white {
     color: #fff;
 }
 
-.btn-solid-lg {
-    display: inline-block;
-    padding: 1rem 1.625rem 1rem 1.625rem;
-    border: 0.125rem solid #036ffc;
-    border-radius: 1.5rem;
-    background-color: #036ffc;
-    color: #fff;
-    font: 700 0.75rem/0 "Inter", sans-serif;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.btn-solid-lg:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: transparent;
-    transition: all 0.3s;
-    border-radius: 10px;
-    border-color: #0088cc;
-}
-
-.btn-solid-lg .fab {
-    margin-right: 0.5rem;
-    font-size: 1.25rem;
-    line-height: 0;
-    vertical-align: top;
-}
-
-.maincontent {
-    background-color: #657efc;
-}
-
 /* Navigation */
 
 .navbar-custom {
@@ -160,7 +128,7 @@ a.white {
 
 .navbar-custom #tips .nav-link:hover,
 .navbar-custom #tips .nav-link.active {
-    background-color:#ff0000;
+    background-color: #ff0000;
     color: black;
     border-radius: 0.9rem;
 }
@@ -179,19 +147,27 @@ a.white {
     font-size: 2rem;
 }
 
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times {
+.navbar-custom
+    button[aria-expanded="false"]
+    .navbar-toggler-awesome.fas.fa-times {
     display: none;
 }
 
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars {
+.navbar-custom
+    button[aria-expanded="false"]
+    .navbar-toggler-awesome.fas.fa-bars {
     display: inline-block;
 }
 
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars {
+.navbar-custom
+    button[aria-expanded="true"]
+    .navbar-toggler-awesome.fas.fa-bars {
     display: none;
 }
 
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times {
+.navbar-custom
+    button[aria-expanded="true"]
+    .navbar-toggler-awesome.fas.fa-times {
     display: inline-block;
     margin-right: 0.125rem;
 }
@@ -206,7 +182,6 @@ a.white {
 .header .header-content {
     padding-top: 8.5rem;
     padding-bottom: 7rem;
-    text-align: center;
 }
 
 .header .text-container {
@@ -217,17 +192,11 @@ a.white {
 
 .header h1 {
     margin-bottom: 1rem;
-    margin-left: 1.3rem;
 }
 
 .header .p-large {
     margin-bottom: 2rem;
     margin-left: 1.3rem;
-}
-
-.header .btn-solid-lg {
-    margin-right: 0.5rem;
-    margin-bottom: 1.25rem;
 }
 
 /*   Media Queries   */
