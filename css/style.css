@@ -165,8 +165,8 @@ a.white {
     border-radius: 0.9rem;
 }
 
-.navbar-custom #stats .nav-link:hover,
-.navbar-custom #stats .nav-link:active {
+.navbar-custom #link .nav-link:hover,
+.navbar-custom #link .nav-link:active {
     background-color: #338bff;
     color: black;
     border-radius: 0.9rem;
@@ -276,4 +276,27 @@ a.white {
 .tips p {
     margin-left: 4%;
     font-weight: bolder;
+}
+
+/* Stats Section */
+
+.statistics {
+    background: #ffd343;
+    background-size: cover;
+}
+
+.statistics .stats-content {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.statistics h1 {
+    text-align: center;
+    align-content: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: black;
+    text-decoration: underline;
 }
