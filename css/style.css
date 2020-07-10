@@ -1,0 +1,248 @@
+/*  General Styles  */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+p {
+    color: #f1f1f8;
+    font: 400 0.875rem/1.375rem "Inter", sans-serif;
+}
+
+.p-large {
+    color: #f1f1f8;
+    font: 400 1rem/1.5rem "Inter", sans-serif;
+}
+
+.p-small {
+    color: #f1f1f8;
+    font: 400 0.75rem/1.25rem "Inter", sans-serif;
+}
+
+.p-heading {
+    margin-bottom: 3.75rem;
+    text-align: center;
+}
+
+.li-space-lg li {
+    margin-bottom: 0.375rem;
+}
+
+.indent {
+    padding-left: 1.25rem;
+}
+
+h1 {
+    color: #f1f1f8;
+    font: 700 2.5rem/2.875rem "Inter", sans-serif;
+}
+
+h2 {
+    color: #f1f1f8;
+    font: 700 2.25rem/2.75rem "Inter", sans-serif;
+}
+
+h3 {
+    color: #f1f1f8;
+    font: 700 1.75rem/2.125rem "Inter", sans-serif;
+}
+
+h4 {
+    color: #f1f1f8;
+    font: 700 1.375rem/1.75rem "Inter", sans-serif;
+}
+
+h5 {
+    color: #f1f1f8;
+    font: 700 1.125rem/1.625rem "Inter", sans-serif;
+}
+
+h6 {
+    color: #f1f1f8;
+    font: 700 1rem/1.5rem "Inter", sans-serif;
+}
+
+a {
+    color: #f1f1f8;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #f1f1f8;
+    text-decoration: underline;
+}
+
+a.white {
+    color: #fff;
+}
+
+.btn-solid-lg {
+    display: inline-block;
+    padding: 1rem 1.625rem 1rem 1.625rem;
+    border: 0.125rem solid #036ffc;
+    border-radius: 1.5rem;
+    background-color: #036ffc;
+    color: #fff;
+    font: 700 0.75rem/0 "Inter", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.3s;
+    border-radius: 10px;
+    border-color: #0088cc;
+}
+
+.btn-solid-lg .fab {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 0;
+    vertical-align: top;
+}
+/* Navigation */
+
+.navbar-custom {
+    background-color: #151618;
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    font: 700 0.75rem/2rem "Inter", sans-serif;
+    transition: all 0.2s;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 2rem;
+}
+
+.navbar-custom .navbar-brand.logo-image img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: center;
+    margin-left: 0.75rem;
+    -webkit-backface-visibility: hidden;
+}
+
+.navbar-custom .navbar-brand.logo-text {
+    font: 700 2.375rem/1.5rem "Inter", sans-serif;
+    color: #fff;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar-custom .navbar-nav {
+    margin: 0.75rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+    padding: 0 0.75rem 0 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    margin: 4px;
+}
+
+.navbar-custom #home .nav-link:hover,
+.navbar-custom #home .nav-link.active {
+    background-color: #338bff;
+    color: black;
+    border-radius: 0.9rem;
+}
+
+.navbar-custom #tips .nav-link:hover,
+.navbar-custom #tips .nav-link.active {
+    background-color: #f7cd13;
+    color: black;
+    border-radius: 0.9rem;
+}
+
+.navbar-custom #stats .nav-link:hover,
+.navbar-custom #stats .nav-link:active {
+    background-color: #ff0000;
+    color: black;
+    border-radius: 0.9rem;
+}
+
+.navbar-custom .navbar-toggler {
+    border: none;
+    margin-right: -10px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times {
+    display: none;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars {
+    display: inline-block;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars {
+    display: none;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times {
+    display: inline-block;
+    margin-right: 0.125rem;
+}
+
+/* Header */
+
+.header {
+    background: #f53131;
+    background-size: cover;
+}
+
+.header .header-content {
+    padding-top: 8.5rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+.header .text-container {
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+    margin-left: 1.3rem;
+}
+
+.header .p-large {
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+}
+
+.header .btn-solid-lg {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+/*   Media Queries   */
+
+/* Min-width width 768px */
+
+@media (min-width: 768px) {
+    /* General Styles */
+    .p-heading {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h1 {
+        font: 700 3.25rem/3.75rem "Inter", sans-serif;
+    }
+    /* end of general styles */
+    /* Header */
+    .header .header-content {
+        padding-top: 11rem;
+    }
+    /* end of header */
+}
