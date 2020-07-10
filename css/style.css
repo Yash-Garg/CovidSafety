@@ -133,9 +133,9 @@ a.white {
     border-radius: 0.9rem;
 }
 
-.navbar-custom #link .nav-link:hover,
-.navbar-custom #link .nav-link:active {
-    background-color: #338bff;
+.navbar-custom #youtube .nav-link:hover,
+.navbar-custom #youtube .nav-link:active {
+    background-color: #0dc945;
     color: black;
     border-radius: 0.9rem;
 }
@@ -272,4 +272,35 @@ a.white {
     width: 100%;
     height: 800px;
     border: 0;
+}
+/*  Video Section  */
+
+.videos {
+    background: #0a663b;
+    background-size: cover;
+}
+
+.videos h1 {
+    text-align: center;
+    align-content: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.videos .videos-content {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.videoWrapper {
+    text-align: center;
+}
+
+.videoWrapper-2 {
+    text-align: center;
+    padding-top: 1rem;
 }
