@@ -281,7 +281,7 @@ a.white {
 /* Stats Section */
 
 .statistics {
-    background: #ffd343;
+    background: #fcb024;
     background-size: cover;
 }
 
@@ -295,8 +295,6 @@ a.white {
 .statistics h1 {
     text-align: center;
     align-content: center;
-    padding-bottom: 1.5rem;
     padding-top: 1.5rem;
-    color: black;
-    text-decoration: underline;
+    color: white;
 }
