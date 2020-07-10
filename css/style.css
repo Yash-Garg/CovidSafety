@@ -276,7 +276,7 @@ a.white {
 /*  Video Section  */
 
 .videos {
-    background: #0a663b;
+    background: teal;
     background-size: cover;
 }
 
@@ -285,8 +285,7 @@ a.white {
     align-content: center;
     padding-top: 6rem;
     padding-bottom: 3rem;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
+    color: #fff;
 }
 
 .videos .videos-content {
