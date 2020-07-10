@@ -267,3 +267,9 @@ a.white {
     padding-top: 1.5rem;
     color: white;
 }
+
+.statistics iframe {
+    width: 100%;
+    height: 800px;
+    border: 0;
+}
