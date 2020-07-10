@@ -134,7 +134,7 @@ a.white {
 }
 
 .navbar-custom #youtube .nav-link:hover,
-.navbar-custom #youtube .nav-link:active {
+.navbar-custom #youtube .nav-link.active {
     background-color: #0dc945;
     color: black;
     border-radius: 0.9rem;
