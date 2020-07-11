@@ -350,6 +350,10 @@ a.white {
     border: 0;
 }
 
+.videos #video-container {
+    max-width: 1080px;
+}
+
 /*     Back To Top Button     */
 
 a.back-to-top {
