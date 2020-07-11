@@ -398,12 +398,17 @@ a:hover.back-to-top {
 }
 
 .copyright-text .creatorText {
-    color: #ffffff;
+    color: #ff0000;
     text-decoration: none;
 }
 
 .copyright-text i {
     color: red;
+}
+
+.site-footer .footer-text {
+    text-align: right;
+    margin: 0;
 }
 
 @media (max-width: 767px) {
