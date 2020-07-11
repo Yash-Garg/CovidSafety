@@ -273,6 +273,10 @@ a.white {
         padding-top: 11rem;
     }
     /* end of header */
+    .videos .videoWrapper,
+    .videos .videoWrapper-2 {
+        width: auto;
+    }
 }
 
 /* Tips Section */
