@@ -1,6 +1,6 @@
 # CovidSafety - ALL IN ONE WEBSITE
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f13b445f-e6e4-4ff2-9b01-f336dda0b0da/deploy-status)](https://app.netlify.com/sites/covidsafety/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f13b445f-e6e4-4ff2-9b01-f336dda0b0da/deploy-status)](https://app.netlify.com/sites/covidsafety/deploys) ![HTML Badge](https://raw.githubusercontent.com/pixel-cookers/built-with-badges/master/html/html-long-flat.png) ![JS Badge](https://raw.githubusercontent.com/pixel-cookers/built-with-badges/master/javascript/javascript-long-flat.png) ![Bootstrap Badge](https://raw.githubusercontent.com/pixel-cookers/built-with-badges/master/bootstrap/bootstrap-long-flat.png)
 
 ## Inspiration
 As a normal person I also searched about **COVID-19** when it was just in some countries, but couldn't find a proper website that gets me all the info about it. So, I decided to make one that has all the latest information about the current pandemic and precautions.
