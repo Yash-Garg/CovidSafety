@@ -189,7 +189,13 @@ a.white {
 
 .navbar-custom #youtube .nav-link:hover,
 .navbar-custom #youtube .nav-link.active {
-    background-color: #0dc945;
+    background-color: #31da64;
+    color: black;
+    border-radius: 0.9rem;
+}
+
+.navbar-custom #news .nav-link:hover {
+    background-color: #6f96ff;
     color: black;
     border-radius: 0.9rem;
 }
