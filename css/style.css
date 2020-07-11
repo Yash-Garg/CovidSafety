@@ -104,6 +104,34 @@ a.white {
 	vertical-align: top;
 }
 
+.btn-solid-lg-2 {
+    margin-left: 5px;
+	display: inline-block;
+	padding: 1.375rem 1.7rem 1.375rem 1.7rem;
+	border-radius: 2rem;
+	background-color: #ffffff;
+	color: black;
+	font: 700 0.75rem/0 "Inter", sans-serif;
+	text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: #000;
+}
+
+.btn-solid-lg-2:hover {
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 0.7rem;
+    color: black;
+}
+
+.btn-solid-lg-2 .fab {
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	line-height: 0;
+    vertical-align: top;
+    color: black;
+}
+
 /* Navigation */
 
 .navbar-custom {
