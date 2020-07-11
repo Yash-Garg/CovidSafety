@@ -410,9 +410,3 @@ a:hover.back-to-top {
     text-align: right;
     margin: 0;
 }
-
-@media (max-width: 767px) {
-    .site-footer .copyright-text {
-        text-align: center;
-    }
-}
