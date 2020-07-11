@@ -16,5 +16,5 @@ I faced some issues understanding how _Javascript_ works, but somehow managed to
 Despite the technical challenges, lack of sleep, and occasional procastination, i am very proud to complete the functionality and the UI design of the website in 48 hours. It was challenging but fun at the same time to learn something new.
 ## What I learned
 This hackathon gave me an opportunity to get the experience of using web technologies and helped me gain confidence in my skills. It's always good to have new ideas that will help people and in such short time ideas turn out to be really good! It was a great experience which helped me boost my skills.
-## What's next for Covid Safety - All in one website
+## What's next for CovidSafety
 In the near future, i want to expand the functionality of the website by adding an _inbuilt news section, a chatbot and a status updater based on their location_. Also, accounts functionality that will help people save their location and bookmark their **favorite videos**, **news articles** and also **chat with random strangers** all over the web!
