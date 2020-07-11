@@ -370,3 +370,40 @@ a.back-to-top {
 a:hover.back-to-top {
     background-color: rgb(201, 201, 201);
 }
+
+/*     Footer    */
+
+.site-footer {
+    background-color: #26272b;
+    padding: 1rem;
+    font-size: 15px;
+    color: #737373;
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #ff6a6a;
+    text-decoration: bolder;
+}
+
+.copyright-text {
+    margin: 0;
+}
+
+.copyright-text .creatorText {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright-text i {
+    color: red;
+}
+
+@media (max-width: 767px) {
+    .site-footer .copyright-text {
+        text-align: center;
+    }
+}
