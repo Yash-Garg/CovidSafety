@@ -307,6 +307,10 @@ a.white {
     font-weight: bolder;
 }
 
+.tips .img-fluid {
+    margin-top: 50px;
+}
+
 /* Stats Section */
 
 .statistics {
