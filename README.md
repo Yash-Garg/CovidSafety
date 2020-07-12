@@ -11,7 +11,7 @@ I built this website by using **HTML-5, Javascript, Bootstrap and CSS** which is
 
 I made sure that it should be as fast, smooth and as much informational as it can be.
 ## Challenges I ran into
-I faced some issues understanding how _Javascript_ works, but somehow managed to make it work. Another challenge that i faced was with **Coronavirus Stats Tracker**, most of the trackers were making website slow if embedded but after digging deep, finally found a good website which works smoothly with the website.
+I faced some issues understanding how _Javascript_ works, but somehow managed to make it work. Another challenge that i faced was with **Coronavirus Stats Tracker**, most of the trackers were making website slow if embedded but after digging deep, finally found a good widget which works smoothly with my website.
 ## Accomplishments that I'm proud of
 Despite the technical challenges, lack of sleep, and occasional procastination, i am very proud to complete the functionality and the UI design of the website in 48 hours. It was challenging but fun at the same time to learn something new.
 ## What I learned
