@@ -182,7 +182,7 @@ a.white {
 
 .navbar-custom #tips .nav-link:hover,
 .navbar-custom #tips .nav-link.active {
-    background-color: #FF5252;
+    background-color: #ff5252;
     color: black;
     border-radius: 0.9rem;
 }
@@ -235,7 +235,7 @@ a.white {
 /* Header */
 
 .header {
-    background: #FF5252;
+    background: #ff5252;
     background-size: cover;
 }
 
@@ -264,7 +264,6 @@ a.white {
 /* Min-width width 768px */
 
 @media (min-width: 768px) {
-    /* General Styles */
     .p-heading {
         width: 85%;
         margin-right: auto;
@@ -273,18 +272,25 @@ a.white {
     h1 {
         font: 700 3.25rem/3.75rem "Inter", sans-serif;
     }
-    /* end of general styles */
-    /* Header */
     .header .header-content {
         padding-top: 11rem;
     }
-    /* end of header */
+    .site-footer .footer-text {
+        text-align-last: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .site-footer {
+        text-align: center;
+        align-items: center;
+    }
 }
 
 /* Tips Section */
 
 .tips {
-    background: #3F51B5;
+    background: #3f51b5;
     background-size: cover;
 }
 
@@ -314,7 +320,7 @@ a.white {
 /* Stats Section */
 
 .statistics {
-    background: #FFC107;
+    background: #ffc107;
     background-size: cover;
 }
 
@@ -328,40 +334,113 @@ a.white {
 /*  Video Section  */
 
 .videos {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     background: #009688;
     background-size: cover;
 }
 
-.videos h1 {
+.videos h2 {
+    margin-bottom: 1.125rem;
     text-align: center;
-    align-content: center;
-    padding-top: 6rem;
-    padding-bottom: 3rem;
-    color: #fff;
+    font-size: 3rem;
 }
 
-.videos .videos-content {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    align-items: center;
-    align-content: center;
+.videos .p-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
-.videoWrapper {
+.videos .image-container img {
+    border-radius: 0.5rem;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.videos .video-wrapper {
+    position: relative;
+}
+
+/* Video Play Button */
+.videos .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    display: block;
+    box-sizing: content-box;
+    width: 2rem;
+    height: 2.75rem;
+    padding: 1.125rem 1.25rem 1.125rem 1.75rem;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.videos .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 50%;
+    background: #396effd0;
+    animation: pulse-border 1500ms ease-out infinite;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.videos .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 50%;
+    background: #396effd0;
+    transition: all 200ms;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.videos .video-play-button span {
+    position: relative;
+    display: block;
+    z-index: 3;
+    top: 0.375rem;
+    left: 0.25rem;
+    width: 0;
+    height: 0;
+    border-left: 1.625rem solid #fff;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+}
+
+.videos .video-frames {
     text-align: center;
 }
 
-.videoWrapper-2 {
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.videos iframe {
-    border: 0;
-}
-
-.videos #video-container {
-    max-width: 1080px;
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
 }
 
 /*     Back To Top Button     */
@@ -417,6 +496,15 @@ a:hover.back-to-top {
 }
 
 .site-footer .footer-text {
-    text-align: right;
-    margin: 0;
+    margin-top: 5px;
+}
+
+.site-footer img {
+    height: 60px;
+    width: 180px;
+}
+
+.site-footer .footer-row {
+    margin-top: 8px;
+    margin-bottom: -15px;
 }
