@@ -182,7 +182,7 @@ a.white {
 
 .navbar-custom #tips .nav-link:hover,
 .navbar-custom #tips .nav-link.active {
-    background-color: #ff0000;
+    background-color: #FF5252;
     color: black;
     border-radius: 0.9rem;
 }
@@ -235,7 +235,7 @@ a.white {
 /* Header */
 
 .header {
-    background: #f53131;
+    background: #FF5252;
     background-size: cover;
 }
 
@@ -284,7 +284,7 @@ a.white {
 /* Tips Section */
 
 .tips {
-    background: #4c28ee;
+    background: #3F51B5;
     background-size: cover;
 }
 
@@ -310,7 +310,7 @@ a.white {
 /* Stats Section */
 
 .statistics {
-    background: #fcb024;
+    background: #FFC107;
     background-size: cover;
 }
 
@@ -324,7 +324,7 @@ a.white {
 /*  Video Section  */
 
 .videos {
-    background: teal;
+    background: #009688;
     background-size: cover;
 }
 
