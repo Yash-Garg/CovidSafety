@@ -4,7 +4,7 @@
 
 ## Previews
 
-| ![screen 1](images/previews/screen-1.png) | ![screen 2](images/previews/screen-2.png) | ![screen 3](images/previews/screen-3.png) | ![screen 4](images/previews/screen-4.png) |
+| ![screen 1](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-1.png) | ![screen 2](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-2.png) | ![screen 3](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-3.png) | ![screen 4](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-4.png) |
 | ------------- |:-------------:|:-------------:|:-------------:|
 
 ## Inspiration
