@@ -4,8 +4,9 @@
 
 ## Previews
 
-| ![screen 1](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-1.png) | ![screen 2](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-2.png) | ![screen 3](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-3.png) | ![screen 4](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-4.png) |
-| ------------- |:-------------:|:-------------:|:-------------:|
+| ![screen 1](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-1.png) | ![screen 2](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-2.png) |
+|:-------------:|:-------------:|
+| ![screen 3](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-3.png) | ![screen 4](https://raw.githubusercontent.com/Yash-Garg/CovidSafety/master/images/previews/screen-4.png) |
 
 ## Inspiration
 As a normal person I also searched about **COVID-19** when it was just in some countries, but couldn't find a proper website that gets me all the info about it. So, I decided to make one that has all the latest information about the current pandemic and precautions.
